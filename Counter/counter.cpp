@@ -1,27 +1,28 @@
 #include "counter.h"
 #include <iostream>
+using namespace std;
 
 
-void initializeCounter() {
+void counterType::initializeCounter() {
 	counter = 0;
 }
 
-void setCounter(int x) {
+void counterType::setCounter(int x) {
 	counter = x;
 }
 
-void incrementCounter() {
+void counterType::incrementCounter() {
 	counter++;
 }
 
-void decrementCounter() {
+void counterType::decrementCounter() {
 	counter--;
 }
 
-int getCounter() {
+int counterType::getCounter() {
 	return counter;
 }
 
-void print() {
-	std::cout << counter;
+void counterType::print() {
+	cout << counter;
 }

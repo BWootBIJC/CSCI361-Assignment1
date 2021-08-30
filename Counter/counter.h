@@ -8,7 +8,7 @@ class counterType {
 
 	//Constructor
 public:
-	counterType(int counter) {
+	counterType(int counter = 0) {
 		counter = counter;
 	}
 
